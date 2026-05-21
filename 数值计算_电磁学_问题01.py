@@ -1,3 +1,11 @@
+'''
+问题： 
+
+三维空间的正方体模型，格点之间用导线相连，求解三个位置上的端口的电阻
+
+'''
+
+
 def main():
     numbers = list(map(int, input("desired N: ").split()))
     error = float(input("error: ") or 1/1000000)
